@@ -1,0 +1,15 @@
+.container {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  position: relative
+}
+.icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url('../../assets/icon.png') no-repeat center 0;
+  background-size: 32px 32px;
+  bottom: 6px;
+  right: 10px;
+}

@@ -1,0 +1,92 @@
+.main{
+  height: 880px;
+  width: 1800px;
+  margin-left: 50px;
+}
+
+
+.content{
+  height: 784px;
+  border: 1px solid #3d515d;
+  border-radius: 6px;
+}
+
+.title{
+  text-align: center;
+  height: 36px;
+  font-size: 16px;
+  line-height: 36px;
+  font-family: SimHei, sans-serif;
+  color: #70c8ea;
+  background: #304351;
+  border: 1px solid #304351;
+  position: relative;
+}
+
+.listImg{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('../assets/list.png');
+  background-size: 30px 30px;
+  top:3px;
+  right: 60px;
+
+}
+
+.listImgSelect{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('../assets/list-select.png');
+  background-size: 30px 30px;
+  top:3px;
+  right: 60px;
+
+}
+
+.viewImg{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('../assets/view.png');
+  background-size: 30px 30px;
+  top:3px;
+  right: 30px;
+}
+
+.viewImgSelect{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('../assets/view-select.png');
+  background-size: 30px 30px;
+  top:3px;
+  right: 30px;
+}
+
+.list{
+  height:746px;
+  border: 1px solid;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #151a20;
+  /*padding-left: 16px;*/
+}
+
+.footerBar{
+  height: 32px;
+  color: #70c8ea;
+  width: 1800px;
+}
+
+
+.popoverBtn{
+  border: 0px;
+  font-family: 'SimHei', sans-serif;
+}
+
+.span{
+  width: 1602px;
+  height: 763px;
+}

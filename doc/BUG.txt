@@ -1,0 +1,12 @@
+
+
+修改roadhog源代码，增加css split的功能（ie9不支持大css)
+node_modules/roadhog/lib/config/webpack.config.prod.js
+
+在 --》 ('[name].css')] 后面 (line 90 )
+
+   .concat(new CSSSplitWebpackPlugin({size: 4000}))
+
+在line 117 增加
+var CSSSplitWebpackPlugin = require('css-split-webpack-plugin').default;
+

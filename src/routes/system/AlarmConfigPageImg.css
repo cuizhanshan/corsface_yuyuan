@@ -1,0 +1,6 @@
+.edit {
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/edit.png') no-repeat center 0;
+  background-size: 30px 30px;
+}

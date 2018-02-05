@@ -1,0 +1,10 @@
+.closeBtn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('../../assets/closeBtn.png') no-repeat center 0;
+  background-size: 25px 25px;
+  top: 5px;
+  right: 20px;
+  cursor: pointer
+}

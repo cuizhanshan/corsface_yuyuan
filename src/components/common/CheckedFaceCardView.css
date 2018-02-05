@@ -1,0 +1,39 @@
+.container {
+  width: 160px;
+  height: 233px;
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  border-radius: 0;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  background: #33444e
+}
+.name {
+  font-family: 'SimHei', 'sans-serif';
+  width: 150px;
+  height: 48px;
+  overflow: hidden
+}
+.date {
+  font-family: 'Arial Bold', 'sans-serif';
+  position: absolute;
+  bottom: 2px
+}
+
+.content {
+  width: 150px;
+  height: 150px;
+  display: block;
+  position: relative
+}
+.icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url('../../assets/icon.png') no-repeat center 0;
+  background-size: 32px 32px;
+  bottom: 6px;
+  right: 10px;
+}

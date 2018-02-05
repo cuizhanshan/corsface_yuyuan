@@ -1,0 +1,172 @@
+
+.text {
+  font-size: 14px;
+  float: left;
+  color: #666;
+  margin: 10px;
+}
+
+.container {
+  width: 1604px;
+  position: relative;
+  background: #232C31
+}
+.searchBar {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  font-size: 16px;
+  font-family: SimHei sans-serif ;
+}
+.label {
+  height: 64px;
+  line-height: 64px;
+  color: #fff;
+  margin-left: 20px;
+}
+.input {
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  width: 200px;
+  border: 1px;
+  border-radius: 6px;
+  padding: 0 5px;
+}
+.fix {
+  margin-left: 30px
+}
+.radioGroup {
+  height: 32px;
+  margin-left: 35px;
+}
+.radio {
+  font-size: 16px;
+  margin-top: 4px;
+  color: #fff
+}
+.btn {
+  height: 34px;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  background: #339A99;
+  color: #fff;
+  width: 78px;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  border: 1px;
+  border-radius: 6px
+}
+.add {
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  border: 1px;
+  border-radius: 6px;
+  height: 40px;
+  line-height: 40px;
+  background: #109DEC;
+  float: right;
+  width: 100px;
+  top: 12px;
+  margin-right: 40px
+}
+.content {
+  width: 1604px;
+  height: 781px;
+  background: #151A20;
+  border: 1px solid #384A54;
+  border-top-left-radius: 6px;
+  border-top-rigth-radius: 6px
+}
+.list {
+  text-align: center;
+  width: 1602px;
+  height: 720px;
+  overflow: auto;
+}
+.item {
+  width: 160px;
+  font-size: 15px;
+  height: 233px;
+  margin: 12px 18px 0px 18px;
+  display: inline-block;
+  cursor: pointer;
+  background: #33444e;
+  border-radius: 0;
+  border: 0;
+  position: relative;
+  color: #ffffff;
+
+}
+.item :hover{
+  border: 2px solid #109dec
+}
+.page {
+  height: 32px;
+  color: #70c8ea;
+  width: 1604px;
+  position: absolute;
+  bottom: 0
+}
+
+.img {
+  margin: 15px 17px 15px 17px;
+  width: 150px;
+  height: 150px;
+  display: inline-block
+}
+
+.edit {
+  float: left;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url('../../assets/edit.png') no-repeat center 0;
+  background-size: 30px 30px;
+  cursor: pointer
+}
+.deleteBtn {
+  float: left;
+  margin-left: 20px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url('../../assets/deleteBtn.png') no-repeat center 0;
+  background-size: 25px 25px;
+  cursor: pointer;
+
+}
+
+.newBtn{
+  position: relative;
+  height: 34px;
+  font-size: 16px;
+  line-height: 32px;
+  display: inline-block;
+  background: #109DEC;
+  color: #fff;
+  width: 78px;
+  text-align: center;
+  right: 20px;
+  float: right;
+  border: 1px;
+  top:12px;
+  border-radius: 6px
+}
+/*.operate{*/
+  /*margin: 0 auto;*/
+  /*width: 80px;*/
+/*}*/
+/*.clearfix{overflow:auto;_height:1%}*/
+.page  {
+  height: 32px;
+  color: #70c8ea;
+  width: 1604px;
+  position: absolute
+}

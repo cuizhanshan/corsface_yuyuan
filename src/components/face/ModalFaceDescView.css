@@ -1,0 +1,166 @@
+/**
+ * Created by Riky on 2017/3/13.
+ */
+.modalBody {
+  top: 53px;
+  border: 1px solid #232c31;
+}
+
+.modalBody > div {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #3d515d;
+  background: #232c31;
+}
+
+/*modal 样式覆盖*/
+
+.modalHeader {
+  width: 100%;
+  height: 36px;
+  position: relative;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #3d515d;
+  background: #304351;
+}
+
+.modalHeaderTitle {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-family: SimHei, sans-serif;
+  color: #70c8ea;
+  line-height: 36px;
+
+}
+
+.modalHeaderCloseBtn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('../../assets/delete.png') no-repeat center 0;
+  background-size: 25px 25px;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.content {
+  /*height: 703px;*/
+  height: 608px;
+  width: 1346px;
+  background: #232C31;
+  margin: 0 auto;
+}
+
+
+.faceList{
+  /*height: 703px;*/
+  height: 608px;
+  width: 757px;
+  overflow: auto;
+  background: #151a20;
+  float: left;
+  padding: 12px;
+}
+
+.faceImg {
+ /* width: 210px;
+  margin: 12px 14px 0px 14px;
+  padding: 5px;
+  border: 1px solid #3d515d;*/
+
+  /*width: 72px;
+  height: 72px;
+  margin: 12px 18px 0 14px;*/
+
+  width: 144px;
+  height: 144px;
+  margin: 12px 20px 0 14px;
+
+  background: #33444e;
+  /*display: inline-block;*/
+  float: left;
+}
+
+
+.info{
+  width: 570px;
+  height: 757px;
+  float: right;
+  padding-top:24px;
+}
+
+.snapImg{
+  /*width: 570px;
+  height: 322px;*/
+
+  width: 400px;
+  height: 226px;
+  margin:0 auto;
+}
+
+
+.footer{
+  background: #232c31;
+  position: relative;
+  font-family: SimHei, sans-serif;
+  font-size: 16px;
+  height: 83px;
+  width: 1366px;
+  color: #ffffff;
+}
+
+
+.faceView {
+  font-size: 15px;
+  width: 210px;
+  height: 296px;
+  float:left;
+  background: #33444e;
+  color: #ffffff;
+  border: 0px;
+}
+
+.circleView {
+  margin-left: 10px;
+  margin-right: 10px;
+  float:left;
+  margin-top: 113px;
+}
+
+.alarmFace {
+  width: 570px;
+  height: 342px;
+  margin: 14px auto;
+}
+.dropDownBtn{
+  position: absolute;
+  top: 12px;
+  left: 597px;
+  width: 120px;
+  height:40px;
+  font-family: 'SimHei', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background: #109dec;
+  border: 1px solid #109dec;
+}
+
+.downIcon{
+  font-size: 16px;
+}
+.refreshMatch{
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  width: 120px;
+  height:40px;
+  font-family: 'SimHei', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background: #109dec;
+  border: 1px solid #109dec;
+}

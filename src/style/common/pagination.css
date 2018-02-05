@@ -1,0 +1,76 @@
+/**
+ * Created by Riky on 2017/3/10.
+ */
+.pagination{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: SimHei, sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.number{
+  font-family: "Arial Bold", sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.left{
+  float: left;
+  height: 100%;
+}
+
+.pagination span{
+  display: inline-block;
+  height: 100%;
+  line-height: 32px;
+}
+
+.total{
+  display: inline-block;
+}
+.current{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.right{
+  float: right;
+  height: 100%;
+}
+
+.pageInfo{
+  display: inline-block;
+  margin-right: 20px;
+  float: left;
+  height: 32px;
+}
+.pageInfo a{
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.translate{
+  display: inline-block;
+  margin-right: 30px;
+  height: 32px;
+}
+
+.translate input{
+  width: 30px;
+  height: 16px;
+  border: 1px solid #3d515d;
+  text-align: center;
+  color: #000;
+  border-radius: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.translate a{
+  margin-left: 10px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+

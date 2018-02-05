@@ -1,0 +1,62 @@
+.modalBody {
+  top: 94px;
+}
+
+.modalBody > div {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #3d515d;
+  background: #304351;
+}
+
+.modalHeader {
+  width: 100%;
+  height: 36px;
+  position: relative;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #3d515d;
+}
+
+.modalHeaderTitle {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-family: SimHei, sans-serif;
+  color: #70c8ea;
+  line-height: 36px;
+}
+
+.modalHeaderCloseBtn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('../../assets/delete.png') no-repeat center 0;
+  background-size: 25px 25px;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.container {
+  height: 703px;
+  width: 757px;
+  background: #151a20;
+  overflow: auto;
+  padding: 12px;
+  position: relative;
+}
+
+.faceImg {
+  width: 210px;
+  margin: 0px 10px 12px 14px;
+  padding: 5px;
+  border: 1px solid #3d515d;
+  background: #33444e;
+  display: inline-block;
+}
+
+
+
+

@@ -1,0 +1,140 @@
+.container {
+  height: 803px;
+  width: 1687px;
+  background: #151a20;
+  margin: 62px  auto 0;
+  border: 1px solid #3d515d;
+  border-radius: 6px
+}
+.content {
+  height: 767px;
+  width: 100%;
+  padding: 5px 0px 10px 15px;
+  font-family: 'SimHei'
+}
+
+.faceTrack {
+  height: 752px;
+  width: 512px;
+  background: #151a20;
+  display: inline-block;
+  border: 1px solid #3d515d;
+  position: relative
+}
+.collapse {
+  position: absolute;
+  top: 0;
+  width: 512px;
+  border: 0;
+}
+.panel {
+  background: #33444e;
+  border-radius: 0;
+  border: 1px solid #3d515d;
+}
+.panelHeader {
+  border: 0;
+  height: 100%;
+  color: #70c8ea;
+  font-size: 16px;
+  font-family:SimHei
+}
+.list {
+  height: 640px;
+  overflow: auto
+}
+
+.backImg {
+  height: 289px
+}
+
+.img {
+  /* width: 200;
+   height: 200;
+   margin: '5px 15px';*/
+
+  width: 144px;
+  height: 144px;
+  margin: 5px 10px;
+  display: inline-block
+}
+
+.person {
+  height: 752px;
+  width: 567px;
+  display: inline-block;
+  margin-left: 5px;
+  background:#33444e;
+  border: 1px solid #3d515d
+}
+.contrast {
+  height: 752px;
+  width: 70px;
+  display: inline-block
+}
+.contrastImg {
+  width: 40px;
+  height: 40px;
+  background: url('../../assets/contrastImg.png') no-repeat center 0;
+  background-size: 40px 40px;
+  margin: 356px auto 0
+}
+.info {
+  position: absolute;
+  top: 5px;
+  width: 567px
+}
+.desc {
+  position: relative;
+  width: 537px;
+  height: 222px;
+  margin: 0 auto
+}
+.personImg {
+  width: 200px;
+  height: 200px;
+  margin: 5px 11px;
+  float: left
+}
+.descInfo {
+  width: 315px;
+  height: 222px;
+  float: right;
+  position: relative
+}
+.item {
+  width: 315px;
+  height: 25px;
+  color: #ffffff;
+  font-size: 14px;
+  float: left
+}
+.itemText {
+  float: left;
+  text-align: right;
+  line-height: 32px;
+  height: 32px;
+  width: 80px
+}
+.itemInput {
+
+  float: right;
+  width: 200px;
+  height: 32px;
+  line-height:32px;
+  margin-left: 10px;
+  overflow:hidden
+}
+.table {
+  width: 537px;
+  margin: 0 auto;
+  height: 460px;
+  font-size: 16px
+}
+.pagination {
+  height: 32px;
+  color: #70c8ea;
+  width: 567px;
+  position: relative;
+  bottom: 0
+}

@@ -1,0 +1,47 @@
+/**
+ * Created by Riky on 2017/2/22.
+ */
+
+.container{
+  position: relative;
+}
+
+.imgView {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.fixName {
+  font-size: 12px;
+  font-family: 'SimHei', sans-serif;
+}
+
+.fixDate {
+  font-family: 'Arial Bold', sans-serif;
+  bottom: 2px;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.alarmImg {
+  /*height: 40px;*/
+  height: 100px;
+  /*width: 40px;*/
+  width: 100px;
+  position: absolute;
+  /*top: 55px;*/
+  top: 100px;
+  /*top: 70px;*/
+  /*left: 75px;*/
+  left: 100px;
+  /*left: 80px;*/
+  background: url('../../assets/alarm.png') no-repeat center 0;
+  /*background-size: 40px 40px;*/
+  background-size: 60px 60px;
+  opacity: 0.7;
+}
+
+.alarmText {
+  color: red;
+}

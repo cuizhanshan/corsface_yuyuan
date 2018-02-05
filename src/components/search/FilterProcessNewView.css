@@ -1,0 +1,68 @@
+.container {
+  width: 266px;
+  height: 748px;
+  border: 1px solid #149BEC;
+  background: #044F6C;
+  display: inline-block;
+  position: relative;
+  color: #70c8ea;
+  font-size: 16px;
+  font-family: 'SimHei', 'sans-serif';
+}
+.header {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 25px;
+  font-size: 18px;
+  color: #fff
+}
+.bg {
+  display: inline-block;
+  width: 30px;
+  height: 30px
+}
+.p1Active {
+  background: url('../../assets/p1Active.png') no-repeat center 0;
+  background-size: 30px 30px
+}
+.p1 {
+  background: url('../../assets/p1.png') no-repeat center 0;
+  background-size: 30px 30px
+}
+.p2Active {
+  background: url('../../assets/p2Active.png') no-repeat center 0;
+  background-size: 30px 30px
+}
+.p2 {
+  background: url('../../assets/p2.png') no-repeat center 0;
+  background-size: 30px 30px
+}
+.p3Active {
+  background: url('../../assets/p3Active.png') no-repeat center 0;
+  background-size: 30px 30px
+}
+.p3 {
+  background: url('../../assets/p3.png') no-repeat center 0;
+  background-size: 30px 30px
+}
+.text {
+  height: 30px;
+  line-height: 30px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.subText {
+  font-size: 14px;
+  height: 120px
+}
+.activeText {
+  color: #fff
+}
+.steps {
+  width:220px;
+  height: 645px;
+  position: relative;
+  top: 100px;
+  left: 40px
+}

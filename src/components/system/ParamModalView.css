@@ -1,0 +1,136 @@
+.body {
+  top: 68px
+}
+.header {
+  height: 36px;
+  width: 100%;
+  background: #304351;
+  color: #70c8ea;
+  border: 1px solid #3d515d;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  position: relative
+}
+.title {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-family: 'SimHei'; 'sans-serif';
+  color: #70c8ea;
+  line-height: 36px
+}
+.closeBtn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('../../assets/closeBtn.png') no-repeat center 0;
+  background-size: 25px 25px;
+  top: 5px;
+  right: 20px;
+  cursor: pointer
+}
+
+.container {
+  width: 1400px;
+  height: 780px;
+  background: #232c31
+}
+
+.content {
+  width: 1372px;
+  height: 650px;
+  background: #151a20;
+  margin: 0 auto;
+  padding: 30px 0 0 0
+}
+.caption {
+  width: 1110px;
+  margin: 0 auto
+}
+
+.subTitle {
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  font-family:'SimHei', 'sans-serif';
+  color: #70c8ea;
+  line-height: 30px;
+}
+.underline {
+  width: 1110px;
+  height: 1px;
+  background-color:#70c8ea
+}
+.chinese{
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  font-family: 'SimHei', 'sans-serif';
+  color: #70c8ea;
+  line-height: 30px;
+  margin-left: 80px
+}
+.faceInfo {
+  height: 130px;
+}
+.pykoInfo{
+  height: 184px;
+}
+.item {
+  width: 420px;
+  height: 32px;
+  float: left;
+  margin: 20px 110px 0 25px;
+}
+.text {
+  height: 32px;
+  width: 74px;
+  line-height: 32px;
+  color: #70c8ea;
+  text-align: left;
+  display: inline-block;
+  font-size:14px
+}
+.input {
+  width: 200px;
+  display: inline-block;
+  margin-left:70px
+
+}
+.chinaText {
+  display: inline-block;
+  font-size: 14px;
+  height: 30px;
+  font-family: 'SimHei', 'sans-serif';
+  color: #70c8ea;
+  line-height: 30px;
+  margin-left: 40px
+}
+.btnWarp{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  width:342px;
+  height:94px;
+  margin:0 auto
+
+}
+.btn{
+  height:46px;
+  width:120px;
+  background:#109DEC;
+  border:1px solid #339A99;
+  font-size:16px;
+
+}
+.greenbtn{
+  float:left;
+  margin-top:25px;
+  margin-left:30px;
+  height:46px;
+  width:120px;
+  background:#339A99;
+  border:1px solid #339A99;
+  font-size:16px
+}

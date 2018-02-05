@@ -1,0 +1,168 @@
+.modalBody {
+  top: 84px;
+  z-index: 99999;
+  position: relative;
+}
+
+.iframe {
+  position: absolute;
+  visibility: inherit;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /*width: 852px;*/
+  width: 100%;
+  z-index: -1;
+  background-color: red;
+}
+
+.modalBody > div {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #3d515d;
+  background: #304351;
+}
+
+/*modal 样式覆盖*/
+
+.modalHeader {
+  width: 100%;
+  height: 36px;
+  position: relative;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #3d515d;
+}
+
+.modalHeaderTitle {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-family: SimHei, sans-serif;
+  color: #70c8ea;
+  line-height: 36px;
+}
+
+.modalHeaderCloseBtn {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: url('../../assets/delete.png') no-repeat center 0;
+  background-size: 25px 25px;
+  top: 5px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.modalContent {
+
+  height: 721px;
+  width: 852px;
+  background: #151a20;
+
+}
+
+.faceList {
+  height: 100%;
+  width: 512px;
+}
+
+.colItem {
+  height: 100%;
+  border: 1px solid #66CAEE
+}
+
+.title {
+  height: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+  font-family: SimHei, sans-serif;
+  color: #70c8ea;
+}
+
+.container {
+  width: 100%;
+  height: 691px;
+  overflow: auto;
+  padding: 12px;
+  position: relative;
+}
+
+.person {
+  width: 330px;
+  height: 710px;
+  background: #33444e;
+  border: 1px solid #3d515d;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  font-family: SimHei, sans-serif;
+}
+
+.faceImg {
+  /* width: 210px;
+   margin: 0px 10px 12px 14px;
+   padding: 5px;*/
+  /*width: 72px;
+  height: 72px;
+  margin: 0 10px 12px 15px;*/
+
+  width: 144px;
+  height: 144px;
+  margin: 0 12px 12px 0px;
+  border: 1px solid #3d515d;
+  background: #33444e;
+  display: inline-block;
+}
+
+.personImg {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 20px;
+  left: 53px;
+}
+
+.info {
+  position: relative;
+  width: 100%;
+  top: 35px;
+  padding-bottom: 12px;
+  color: #ffffff;
+}
+
+.personText {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  left: 18px;
+  text-align: right;
+}
+
+.personValue {
+  display: inline-block;
+  position: relative;
+  left: 18px;
+}
+
+.descBtn {
+  position: absolute;
+  width: 112px;
+  height: 46px;
+  font-size: 16px;
+  font-family: SimHei, sans-serif;
+  display: block;
+  border: 1px solid #109dec;
+  border-radius: 6px;
+  text-align: center;
+  color: #ffffff;
+  background: #109dec;
+  bottom: 30px;
+  right: 20px;
+  line-height: 46px;
+}
+
+
+

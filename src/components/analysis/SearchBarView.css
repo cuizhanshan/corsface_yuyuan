@@ -1,0 +1,90 @@
+/**
+ * Created by Riky on 2017/3/3.
+ */
+
+.main {
+  width: 100%;
+  height: 64px;
+}
+
+.condition {
+  height: 100%;
+  font-size: 16px;
+  line-height: 59px;
+  font-family: SimHei, sans-serif;
+
+}
+
+
+.conditionTitle{
+  float: left;
+  width: 13%;
+  color: #70c8ea;
+}
+
+.conditionTitle2{
+  float: left;
+  width: 9%;
+  color: #70c8ea;
+}
+
+
+
+.prefixInput {
+  float: left;
+  height: 32px;
+  margin: 15px 6px;
+  /*width: 76%;*/
+  width: 342px;
+  font-size: 14px;
+}
+
+.prefixInput2 {
+  float: left;
+  height: 32px;
+  margin: 14px 6px;
+  /*width: 82%;*/
+  font-size: 14px;
+}
+
+/*.condition>span>span{
+  height: 36px;
+  font-size: 14px;
+  line-height: 2;
+  border: 1px solid #3d515d;
+  border-radius: 6px;
+}*/
+
+.condition button{
+  background: #339a99;
+  color: #ffffff;
+  font-family: SimHei, sans-serif;
+  font-size: 16px;
+  border: 1px solid #339a99;
+  border-radius: 6px;
+  width: 78px;
+  height: 32px;
+}
+
+
+
+
+.inputNumber {
+  float: left;
+  height: 32px;
+  width: 150px;
+  margin: 15px 6px;
+}
+
+
+.split{
+  color: #ffffff;
+  width: 20px;
+  /*display: block;*/
+  float: left;
+  line-height: 64px;
+  text-align: center;
+  margin: 4px 4px;
+}
+
+

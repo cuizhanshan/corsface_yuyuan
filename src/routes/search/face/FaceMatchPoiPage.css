@@ -1,0 +1,154 @@
+.process {
+  position: absolute;
+  top: 100px;
+  left: 50px
+}
+.container {
+  position: absolute;
+  top: 14px;
+  left: 366px;
+  width: 1504px;
+  height: 836px;
+  background: #151a20;
+  border: 1px solid #3D515C;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.face {
+  margin: 0 auto;
+  width: 1464px;
+  height: 156px;
+  border-bottom: 1px solid #ffffff;
+}
+.header {
+  color: #70c8ea;
+  height: 30px;
+  line-height: 36px;
+  display: block;
+  border-bottom: 1px solid #ffffff;
+  font-size: 14px;
+  font-family: 'SimHei', 'sans-serif'
+}
+.poiList {
+  border: 1px solid #3D515C;
+  margin: 5px auto;
+  width: 1464px;
+  height: 350px;
+  overflow: auto
+}
+
+
+.new {
+  margin: 5px auto;
+  width: 1464px;
+}
+.tip {
+  color: #70c8ea;
+  height: 30px;
+  line-height: 36px;
+  display: block;
+  font-size: 14px;
+  font-family: 'SimHei', 'sans-serif';
+}
+
+.infoBg {
+  margin-top: 6px;
+  float: left;
+  width: 180px;
+  height: 180px;
+  background: url('../../../assets/infoBg.png') no-repeat center 0;
+  background-size: 180px 180px
+}
+.info {
+  float: right;
+  height: 180px;
+  width: 1275px;
+  margin-top: 6px;
+  background: #33444E
+}
+.item {
+  width: 320px;
+  margin-left: 50px;
+  margin-top: 15px;
+  display: inline-block
+}
+.label {
+  height: 32px;
+  line-height: 32px;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  width: 80px;
+  text-align: right
+}
+.input {
+  display: inline-block;
+  font-size: 16px;
+  width: 200px;
+  height: 32px;
+  margin-left: 10px;
+}
+.radioGroup {
+  height: 32px;
+  margin-left: 35px;
+}
+.radio {
+  font-size: 16px;
+  margin-top: 4px;
+  color: #fff
+}
+.fix {
+  float: right;
+  text-align: right;
+  margin-right: 194px
+}
+
+.newBtn {
+  width: 72px;
+  height: 32px;
+  font-size: 14px;
+  background: #339A99;
+  border: 1px solid #339A99
+}
+
+.btnArea {
+  width: 1464px;
+  height: 55px;
+  position: absolute;
+  bottom: 0;
+  left: 20px
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  bottom: 15px;
+  font-size: 16px
+}
+.previous {
+  left: 10px
+}
+.next {
+  right: 10px
+}
+.faceItem {
+  margin: 6px 20px 6px 21px;
+}
+.modal {
+  top: 50px
+}
+
+.img {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+}
+.spin {
+  margin: 0 auto;
+  width: 1464px;
+  height: 350px;
+  background: #151a20
+}

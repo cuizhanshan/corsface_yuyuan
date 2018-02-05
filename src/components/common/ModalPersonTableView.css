@@ -1,0 +1,85 @@
+.searchFilter {
+  width: 97.4%;
+  height: 145px;
+  margin-left: 20px;
+}
+
+.filterRow{
+  margin: 5px auto;
+  width: 98%;
+  height: 40px;
+}
+
+.filterName{
+  font-size: 16px;
+  width: 270px;
+  float: left;
+
+}
+
+
+.filterNameText{
+  float: left;
+  width: 50px;
+  line-height:38px;
+}
+
+.filterNameTextInput {
+  float: left;
+  height: 36px;
+  width: 200px;
+  margin-top: 1px;
+}
+
+.filterGender{
+  width: 136px;
+  float: left;
+  height: 38px;
+}
+
+
+
+.filterRadio{
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+.filterTime{
+  font-size: 16px;
+  width: 400px;
+  float: left;
+}
+
+.filterTimeText{
+  float: left;
+  width: 84px;
+  line-height:38px;
+}
+
+.filterTime>span>span{
+  height: 36px;
+  line-height: 2.5;
+  margin-top: 1px;
+}
+
+.filterIdCard{
+  font-size: 16px;
+  width: 292px;
+  float: left;
+}
+
+.filterBtn{
+  width: 400px;
+  text-align: right;
+  height: 38px;
+  float: left;
+}
+
+.searchResult {
+  width: 720px;
+  margin-left: 20px;
+}
+
+
+
+

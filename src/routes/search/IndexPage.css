@@ -1,0 +1,110 @@
+.container {
+  width: 870px;
+  height: 850px;
+  border-radius: 6px;
+  position: absolute;
+  top: 12px;
+  color: #fff;
+  display: inline-block;
+  background: #33444e;
+  border: 1px solid #3d515d;
+  text-align: center
+
+}
+.left {
+  left: 75px;
+}
+.right {
+  right: 75px;
+}
+.title {
+  width: 262px;
+  height: 53px;
+  position: relative;
+  top: 120px;
+  left: 304px;
+  background-size: 262px 53px
+}
+.leftTitleBg {
+  background: url('../../assets/no_target.png') no-repeat center 0;
+
+}
+.rightTitleBg {
+  background: url('../../assets/purposeful.png') no-repeat center 0;
+}
+.personBg {
+  width: 174px;
+  height: 174px;
+  position: relative;
+  top: 172px;
+  left: 348px;
+  background-size: 174px 174px
+}
+.leftPersonBg {
+  background: url('../../assets/portrait.png') no-repeat center 0
+}
+.rightPersonBg {
+  background: url('../../assets/portrait.png') no-repeat center 0
+}
+.btn {
+  width: 260px;
+  height: 92px;
+  position: relative;
+  display: block;
+  border-radius: 6px;
+  font-size: 24px;
+  border: 0;
+  line-height: 92px;
+  background: #109ded;
+  color: #fff;
+  font-family: 'SimHei', 'sans-serif';
+}
+.btn:hover{
+  background: #fff;
+  color: #109ded;
+}
+
+.faceBtn {
+  top: 224px;
+  left: 305px;
+}
+.poiBtn {
+  top: 224px;
+  left: 305px;
+}
+.newBtn {
+  top: 261px;
+  left: 305px;
+}
+.tip {
+  font-size: 14px;
+  font-family: 'SimHei', 'sans-serif';
+  display: block;
+  color: #70c8ea;
+  position: relative;
+  height: 20px;
+
+}
+.faceTip {
+  top: 234px
+}
+
+.newTip {
+  top: 272px
+}
+
+.tipBg {
+  display:inline-block;
+  background: url('../../assets/querstion.png') no-repeat center 0;
+  background-size: 20px 20px;
+  height: 20px;
+  width: 20px
+}
+.tipText {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  top: -5px;
+  left: 10px
+}

@@ -1,0 +1,31 @@
+.container{
+  width: 124px;
+  height: 84px;
+  position: relative;
+  background: #33444E;
+  display: inline-block;
+}
+
+.img{
+  width: 84px;
+  height: 84px;
+  float: left;
+}
+
+.badge {
+  background: #044f6c;
+  color: #70c8ea;
+  border: 1px solid #109dec;
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  right: 4px;
+  bottom: 2px;
+}
+
+.badge sup{
+  border: 0;
+  border-radius: 0px;
+  background: #044f6c;
+  color: #70c8ea;
+}

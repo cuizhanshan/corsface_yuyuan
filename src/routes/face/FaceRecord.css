@@ -1,0 +1,31 @@
+.faceCardView {
+  /*width: 130px;
+  font-size: 15px;
+  height: 203px;
+  margin: 25px 16px 12px 17px;*/
+  width: 140px;
+  font-size: 15px;
+  height: 150px;
+  margin: 19px 22px 12px 17px;
+  display: inline-block;
+  cursor: pointer;
+  background: #33444e;
+  border-radius: 0px;
+  border: 0;
+  position: relative;
+  color: #ffffff;
+}
+
+.faceCardView:hover {
+  border: 2px solid #109dec;
+}
+
+.faceImg{
+  width: 84px;
+  height: 84px;
+}
+
+.reset3Img{
+  width: 80px;
+  height:80px;
+}

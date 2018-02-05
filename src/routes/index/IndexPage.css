@@ -1,0 +1,380 @@
+.main {
+  margin-top: 40px;
+  height: calc(100vh - 100px);
+  margin-left: 50px;
+
+}
+
+.main > div {
+  height: 100%;
+}
+
+.faceArea {
+  float: left;
+  width: 62vw;
+  border-radius: 6px;
+  background: #151a20;
+}
+
+.subTitle {
+  height: 36px;
+  width: 100%;
+  text-align: center;
+  background: #304351;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.subTitle span, a {
+  font-family: 'SimHei', Serif;
+  font-size: 16px;
+  line-height: 36px;
+  color: #70c8ea;
+}
+
+.subTitle a {
+  float: right;
+  margin-right: 2%;
+  font-size: 12px;
+
+}
+
+.faceRecordList {
+  width: 100%;
+  height: calc(100% - 36px);
+  overflow: auto;
+  display: inline-block;
+  padding-top: 12px;
+}
+
+.faceCardView {
+  width: 12%;
+  font-size: 14px;
+  height: 150px;
+  margin: 12px;
+  display: inline-block;
+  cursor: pointer;
+  background: #33444e;
+  border-radius: 0px;
+  border: 0;
+  position: relative;
+  color: #ffffff;
+}
+
+.faceCardView:hover {
+  border: 2px solid #109dec;
+}
+@media screen and (max-width:1885px){
+  .faceCardView {
+    width: 12%;
+    font-size: 14px;
+    height: 150px;
+    margin: 20px 0px 0px 20px;
+    display: inline-block;
+    cursor: pointer;
+    background: #33444e;
+    border-radius: 0px;
+    border: 0;
+    position: relative;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width:1830px){
+  .faceCardView {
+    width: 13%;
+    font-size: 14px;
+    height: 150px;
+    margin: 20px 0px 0px 36px;
+    display: inline-block;
+    cursor: pointer;
+    background: #33444e;
+    border-radius: 0px;
+    border: 0;
+    position: relative;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width:1773px){
+  .faceArea {
+    float: left;
+    width: 60vw;
+    border-radius: 6px;
+    background: #151a20;
+  }
+  .faceCardView {
+    width: 15%;
+    font-size: 14px;
+    height: 150px;
+    margin: 20px 0px 0px 45px;
+    display: inline-block;
+    cursor: pointer;
+    background: #33444e;
+    border-radius: 0px;
+    border: 0;
+    position: relative;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width:1665px){
+  .faceArea {
+    float: left;
+    width: 55vw;
+    border-radius: 6px;
+    background: #151a20;
+  }
+  .faceCardView {
+    width: 200px;
+    font-size: 14px;
+    height: 150px;
+    margin: 20px 0px 0px 45px;
+    display: inline-block;
+    cursor: pointer;
+    background: #33444e;
+    border-radius: 0px;
+    border: 0;
+    position: relative;
+    color: #ffffff;
+  }
+}@media screen and (min-width:1500px) and (max-width:1665px){
+  .faceArea {
+    float: left;
+    width: 55vw;
+    border-radius: 6px;
+    background: #151a20;
+  }
+  .faceCardView {
+    width: 18%;
+    font-size: 14px;
+    height: 150px;
+    margin: 20px 0px 0px 45px;
+    display: inline-block;
+    cursor: pointer;
+    background: #33444e;
+    border-radius: 0px;
+    border: 0;
+    position: relative;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width:1500px){
+  .faceArea {
+    float: left;
+    width: 742px;
+    border-radius: 6px;
+    background: #151a20;
+  }
+  .faceCardView {
+    width: 180px;
+    font-size: 14px;
+    height: 150px;
+    margin: 20px 0px 0px 45px;
+    display: inline-block;
+    cursor: pointer;
+    background: #33444e;
+    border-radius: 0px;
+    border: 0;
+    position: relative;
+    color: #ffffff;
+  }
+  .main {
+    margin-top: 14px;
+    height: 866px;
+    margin-left: 40px;
+  }
+}
+
+.alarmArea {
+  width: 570px;
+  float: left;
+  margin-left: 30px;
+  background: #151a20;
+  border-radius: 6px;
+}
+
+.statistical {
+  height: 128px;
+  /*width: 100%;*/
+}
+
+.statItem {
+  /*width: 138px;*/
+  border-radius: 6px;
+}
+
+.statItemNumber {
+  font-size: 24px;
+  height: 88px;
+  background: #044f6c;
+  text-align: center;
+  line-height: 90px;
+  overflow: hidden;
+  color:#ff6d65;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.statItemTxt {
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  overflow: hidden;
+  background: #109dec;
+  color: #ffffff;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.alarmList {
+  height: calc(100% - 500px);
+  margin-top: 14px;
+  border: 1px solid #304351;
+  border-radius: 6px;
+  position: relative;
+}
+
+.alarmRecord {
+  height: calc(100% - 45px);
+  overflow: auto;
+  padding-left: 20px;
+  width: 100%;
+  padding-top: 12px;
+}
+
+.faceView {
+  font-size: 15px;
+  width: 210px;
+  /*height: 296px;*/
+  height: 215px;
+  float:left;
+  background: #33444e;
+  color: #ffffff;
+  border: 0px;
+}
+.resetImg {
+  width: 127px;
+  height: 127px;
+}
+.reset2Img {
+  width: 80px;
+  height: 80px;
+}
+
+.faceView {
+  font-size: 15px;
+  width: 210px;
+  /*height: 296px;*/
+  height: 215px;
+  float:left;
+  background: #33444e;
+  color: #ffffff;
+  border: 0px;
+}
+
+.circleView {
+  margin-left: 10px;
+  margin-right: 10px;
+  float:left;
+  margin-top: 63px;
+  /*margin-top: 113px;*/
+  position:relative
+}
+
+.alarmFace {
+  width: 510px;
+  margin-top: 14px;
+  float:left;
+  cursor: pointer;
+}
+
+.alarmFace:hover {
+  border: 2px solid #109dec;
+}
+
+.faceBgImg {
+  /*margin-top: 14px;*/
+  position: absolute;
+  bottom: 0;
+  height: 350px;
+}
+.videoStyle {
+  margin-left: 20px;
+}
+
+.audio{
+  position: absolute;
+  left: -1000px;
+}
+
+.alarmClass{
+  /*top:145px;
+  left:155px;*/
+  top: 110px;
+  left: 142px;
+}
+
+
+/*修改最新报警卡片样式*/
+.alarmFaceTwo{
+  margin-top: 14px;
+  float:left;
+  cursor: pointer;
+  width: 508px;
+}
+
+.alarmFaceTwo{
+  margin-top: 14px;
+  float:left;
+  cursor: pointer;
+  width: 508px;
+}
+
+.alarmFace:hover {
+  width: 520px;
+  border: 2px solid #109dec;
+}
+.alarmFaceTwo:hover {
+  width: 510px;
+  border: 1px solid #109dec;
+}
+
+.alarmClassTwo{
+  /*top:145px;
+  left:155px;*/
+  top: 107px;
+  left: 110px;
+}
+
+.faceView {
+  font-size: 15px;
+  width: 210px;
+  /*height: 296px;*/
+  height: 263px;
+  float:left;
+  background: #33444e;
+  color: #ffffff;
+  border: 0px;
+}
+.faceViewTwo{
+  width:150px;
+}
+.faceViewJudgeTwo{
+  width:275px;
+}
+.resetImg {
+  width: 127px;
+  height: 127px;
+}
+.circleView {
+  margin-left: 3px;
+  margin-right: 3px;
+  float:left;
+  margin-top: 63px;
+  /*margin-top: 113px;*/
+  position:relative
+}
+
+.dropMenu{
+  max-height:300px;
+  overflow: auto;
+}
