@@ -10,80 +10,77 @@ export default {
       facetrackCount: [],
       alarmCount: []
     },
-      ygCount: [],
-      ygPeriodCount: [],
-      ygStayCount: [],
-      ygTitleCount: {
-          intoCount: 0,
-          stayCount: 0
-      },
+    ygCount: [],
+    ygPeriodCount: [],
+    ygStayCount: [],
+    ygTitleCount: {
+      intoCount: 0,
+      stayCount: 0
+    },
 
     cameraFaceData: [],
     cameraCameraData: []
   },
   sunscriptions: {},
   effects: {
-    * ygGetAllState ( {payload}, { put, call } ){
-        const delay = timeout => {
-            return new Promise(resolve => {
-                setTimeout(resolve, timeout);
-            });
-        };
-        yield put({type: 'ygGetTitleCount'});
-        yield put({type: 'ygGetCount'});
-        yield put({type: 'ygGetPeriodCount'});
-        yield put({type: 'ygGetStayCount'});
-        while( true ){
-            yield call(delay, 5000);
-            yield put({type: 'ygGetTitleCount'});
-            yield put({type: 'ygGetCount'});
-            yield put({type: 'ygGetPeriodCount'});
-            yield put({type: 'ygGetStayCount'});
-        }
-
+    * ygGetAllState({ payload }, { put, call }) {
+      const delay = timeout => new Promise(resolve => {
+        setTimeout(resolve, timeout);
+      });
+      yield put({ type: 'ygGetTitleCount' });
+      yield put({ type: 'ygGetCount' });
+      yield put({ type: 'ygGetPeriodCount' });
+      yield put({ type: 'ygGetStayCount' });
+      while (true) {
+        yield call(delay, 5000);
+        yield put({ type: 'ygGetTitleCount' });
+        yield put({ type: 'ygGetCount' });
+        yield put({ type: 'ygGetPeriodCount' });
+        yield put({ type: 'ygGetStayCount' });
+      }
     },
-    * ygGetTitleCount ({ payload }, { put, call, select }) {
+    * ygGetTitleCount({ payload }, { put, call, select }) {
       const { data } = yield call(ygGetTitleCount);
-      if( data && data.status === 0 ){
-          yield put({
-              type: 'success',
-              payload: {
-                  ygTitleCount: data.result
-              }
-          })
+      if (data && data.status === 0) {
+        yield put({
+          type: 'success',
+          payload: {
+            ygTitleCount: data.result
+          }
+        });
       }
     },
-      * ygGetCount ({ payload }, { put, call }) {
+    * ygGetCount({ payload }, { put, call }) {
       const { data } = yield call(ygGetCount);
-      if( data && data.status === 0 ){
-          yield put({
-            type: 'success',
-              payload: {
-              ygCount: data.result
-              }
-          })
+      if (data && data.status === 0) {
+        yield put({
+          type: 'success',
+          payload: {
+            ygCount: data.result
+          }
+        });
       }
     },
-      * ygGetPeriodCount ({ payload }, { put, call }) {
+    * ygGetPeriodCount({ payload }, { put, call }) {
       const { data } = yield call(ygGetPeriodCount);
-      if( data && data.status === 0 ){
-          yield put({
-            type: 'success',
-              payload: {
-                  ygPeriodCount: data.result
-              }
-          })
+      if (data && data.status === 0) {
+        yield put({
+          type: 'success',
+          payload: {
+            ygPeriodCount: data.result
+          }
+        });
       }
     },
-      * ygGetStayCount ({ payload }, { put, call }) {
+    * ygGetStayCount({ payload }, { put, call }) {
       const { data } = yield call(ygGetStayCount);
-      if( data && data.status === 0 ){
-          yield put({
-              type: 'success',
-              payload: {
-                  ygStayCount: data.result
-              }
-          })
+      if (data && data.status === 0) {
+        yield put({
+          type: 'success',
+          payload: {
+            ygStayCount: data.result
+          }
+        });
       }
     },
     * allTrafficStatistics({ payload }, { put, call }) {

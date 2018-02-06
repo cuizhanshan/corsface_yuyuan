@@ -49,8 +49,77 @@ export const SYSTEM_TARGET_PERSON_SIZE = 32;
 
 export const CAMERA_PAGE_SIZE = 11;
 
-
 export const CAMERA_CONFIG = '{\n' +
+        '    "FaceMethods": {\n' +
+        '        "detector": "4", \n' +
+        '        "detectorCheck": "4", \n' +
+        '        "alignment": "0", \n' +
+        '        "tracker": "1"\n' +
+        '    }, \n' +
+        '    "PykoParam": {\n' +
+        '        "scalefactor": 1.08, \n' +
+        '        "stridefactor": 0.1, \n' +
+        '        "qthreshold": 0\n' +
+        '    }, \n' +
+        '    "ThetaParam": {\n' +
+        '        "scalefactor": 0.75, \n' +
+        '        "xstep": 0.0125, \n' +
+        '        "ystep": 0.0125\n' +
+        '    }, \n' +
+        '    "IntraParam": {\n' +
+        '        "threshold": 0.75\n' +
+        '    }, \n' +
+        '    "FaceFeatureParam": {\n' +
+        '        "gpu_threads": 1, \n' +
+        '        "gpudevice": 0\n' +
+        '    }, \n' +
+        '    "FaceTrackParam": {\n' +
+        '        "face_minsize": 0.05, \n' +
+        '        "face_maxsize": 0.8, \n' +
+        '        "track_facenum": 30, \n' +
+        '        "gap": 3, \n' +
+        '        "detect_gap": 5, \n' +
+        '        "track_gap": 1, \n' +
+        '        "margin": 0.5, \n' +
+        '        "edge_remove": true, \n' +
+        '        "minsize": 50, \n' +
+        '        "bufferframes": 100, \n' +
+        '        "second_removed_live": 1, \n' +
+        '        "second_live": 10, \n' +
+        '        "faces_live": 20, \n' +
+        '        "enable_openmp": false\n' +
+        '    }, \n' +
+        '    "VideoParam": {\n' +
+        '        "area_left": 0.05, \n' +
+        '        "area_top": 0.05, \n' +
+        '        "area_width": 0.9, \n' +
+        '        "area_height": 0.9, \n' +
+        '        "det_only": true, \n' +
+        '        "track_size_w": 500, \n' +
+        '        "det_size_w": 400, \n' +
+        '        "orig_size_w": 0, \n' +
+        '        "orig_aspect": -1.3333, \n' +
+        '        "rotate_angle": 0\n' +
+        '    }, \n' +
+        '    "BgParam": {\n' +
+        '        "width": 400, \n' +
+        '        "height": 226, \n' +
+        '        "submitted": true, \n' +
+        '        "submit_orig": true, \n' +
+        '        "width_orig": 400, \n' +
+        '        "count_orig": 4\n' +
+        '    }, \n' +
+        '    "IPCameraParam": {\n' +
+        '        "url": "http://fms.cntv.lxdns.com/live/flv/channel63.flv", \n' +
+        '        "dynamic_background": false, \n' +
+        '        "vlc_option": "net-caching=300", \n' +
+        '        "video_player": 0, \n' +
+        '        "live_port": 8554, \n' +
+        '        "live_width": 480, \n' +
+        '        "live_buffer": 10\n' +
+        '    }\n' +
+        '}';
+export const CAMERA_CONFIG_V248 = '{\n' +
   '    "FaceMethods": {\n' +
   '        "detector": "4", \n' +
   '        "detectorCheck": "4", \n' +
